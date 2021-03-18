@@ -2,9 +2,9 @@
 
 Как сделать не дорогую и эффектную неоновую вывеску с анимацией.
 
-[![DIY Old-school Neon Street Sign]](https://youtu.be/zmeLh06xB2E)
+[![DIY Old-school Neon Street Sign](https://youtu.be/zmeLh06xB2E)](https://youtu.be/zmeLh06xB2E)
 
-[![DIY Neon Street Sign, Working Loop]](https://youtu.be/t6zGR22zTOM)
+[![DIY Neon Street Sign, Working Loop](https://youtu.be/t6zGR22zTOM)](https://youtu.be/t6zGR22zTOM)
 
 ## Шаг 1. Вдохновитесь старыми неоновыми вывесками
 
