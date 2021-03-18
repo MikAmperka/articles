@@ -54,9 +54,9 @@
 
 У нашей ковбойши желтая шляпа и зеленый шейный платок. Мы добавили персонажу две простые анимации. Первая - ковбойша подмигиваем глазом. Вторая - ковбойша поднимает свою кружку с пивом и опускает ее слегка выплескивая пивную пену. Так же мы добавили слово "SALOON" в верхний правый угол вывески. Для слова салун мы решили так же добавить световые эффекты, например мигание, или "бегущий огонек".
 
-![step-3-desing-2d](./img/step-3-desing-3d.png)
+![step-3-desing-2d](./img/step-3-designg-2d.png)
 
-![step-3-desing-3d](./img/step-3-desing-3d.jpg)
+![step-3-desing-3d](./img/step-3-designg-3d.jpg)
 
 Вот некоторые ключевые моменты при дизайне вывески:
 * Чертеж вывески должен состоять из линий-конктуров. Линии контуры на чертеже соответствуют местам где будут впоследствии установлены отрезки гибкого светодиодного неона на реальной вывеске.
@@ -68,132 +68,115 @@
 * Раскрасьте линии-контуры в те цвета которые соответствуют реальным цветам вашего гибкого неона.
 * Помимо линий-контуров отрезков светодиодных лент не забудьте нарисовать и контур для основы всей вывески.
 
+Для примера прикладываем [CAD чертеж нашей вывески в формате DWG](./files/drawing-dwg.dwg).
 
+## Шаг 4. Перенесите чертеж на основу вывески
 
+Выберите материал из которого будет изготовлена основа для вашей вывески. За основу мы решили взять лист фанеры размерами 1500х1500мм и толщиной 10мм.
 
+Перенесите готовый чертеж на вашу основу для вывески. Для переноса нашего рисунка мы распечатали его в масштабе 1:1 на нескольких листах А4 и склеили листы между собой.
 
+![step-4-image-1](./img/step-4-image-1.jpg)
 
+А затем мы постепенно отрезали контуры с бумаги и карандашом повторяли их на фанере. На основу нужно перенести как контуры светодиодных лент так и контур всей вывески.
 
+![step-4-image-2](./img/step-4-image-2.jpg)
 
+![step-4-image-3](./img/step-4-image-3.jpg)
 
+![step-4-image-4](./img/step-4-image-4.jpg)
 
+![step-4-image-5](./img/step-4-image-5.jpg)
 
+## Шаг 5. Вырежьте контур вывески
 
+Когда все контуры перенесены на основу, можно выпилить контур вывески. Мы выпилили контур электролобзиком используя пилку по дереву.
 
+![step-5-image-1](./img/step-5-image-1.jpg)
 
+## Шаг 6. Примерьте отрезки неоновых лент
 
+Отрежьте от гибкого неона отрезки нужного цвета и длины согласно чертежу.
 
+![step-6-image-1](./img/step-6-image-1.jpg)
 
+Теперь можно приступить к примерке неоновых отрезков. Прикрепить неон к основе можно разными способами, например клеем, но мы решили зафиксировать их гвоздями. Мы использовали бронзовые гвозди без головки, толщиной 1,2 мм и длиной 20 мм.
 
-[![CircleCI](https://circleci.com/gh/xodio/xod/tree/master.svg?style=shield)](https://circleci.com/gh/xodio/xod/tree/master) [![AppVeyor](https://ci.appveyor.com/api/projects/status/vk5ngjb4xw4m60ks?svg=true)](https://ci.appveyor.com/project/xod/xod)
+![step-6-image-2](./img/step-6-image-2.jpg)
 
-XOD is a visual programming language for microcontrollers. This repository contains sources for XOD language core, XOD IDE and XOD standard library.
+Мы разместили гвозди по обе стороны неоновых лент таким образом что гвозди сдавливают неоновую ленту с ее боков. Не следует забивать гвозди до конца, необходимо лишь обеспечить надежное сдавилвание ленты. Так же с помощью гвоздей очень удобно создавать нужные изгибы гибкого неона. Лучше всего вбивать гвозди в образующие точки кривых линий-контуров.
 
-![Xoding demo](./.github/xoding.gif)
+![step-6-image-3](./img/step-6-image-3.jpg)
 
-## Installation & Quick start
+Мы запланировали довольную крупную вывеску так что нам пришлось вбить около тысячи гвоздей. Довольно рутинная задача, так что обязательно придумайте как развлечь себя в процессе.
 
-Download the latest IDE version for desktop or run the browser-based IDE at <https://xod.io>.
+![step-6-image-4](./img/step-6-image-4.jpg)
 
-Documentation and tutorials are at <https://xod.io/docs/>.
+![step-6-image-5](./img/step-6-image-5.jpg)
 
-## Building from source
+Примерьте все отрезки неона согласно чертежу. Убедитесь что все размеры сошлись с чертежем и вывеска выглядит так как вам нужно. Сейчас последний шанс что то подправить, например укоротить или удлинить тот или иной отрезок, изменить изгиб или вбить больше фиксирующих гвоздей.
 
-XOD is written in JavaScript and ReasonML. You need Node.js and Yarn to build from source. Make sure they are available on your system.
+![step-6-image-6](./img/step-6-image-6.jpg)
 
-Clone the repository and set working directory to its root. Then run:
+![step-6-image-7](./img/step-6-image-7.jpg)
 
-```bash
-# Install all JavaScript and ReasonML dependencies
-yarn
+После примерки снимите все отрезки неона с основы.
 
-# Build all packages of XOD
-yarn build
-```
+## Шаг 7. Подготовьте и покрасьте основу вывески
 
-To start the desktop IDE run:
+Следующий шаг это покраска основы для вывески.
 
-```bash
-yarn start:electron
-```
+Перед покраской нужно сделать в основе отверстия для проводов питающих неоновые отрезки. Питающие провода будут уходить с лицевой стороны вывески на заднюю сторону. Отверстия должны находиться на краях неоновых отрезков. Для каждого неонового отрезка светодиодной ленты выберите край куда будут уходить провода. Мы просверлили отверстия диаметром 3м.  
 
-Alternatively, run browser-based IDE:
+![step-7-image-1](./img/step-7-image-1.jpg)
 
-```bash
-yarn dev:browser
-# IDE is available at <http://localhost:8080>
-```
+Если на вашей основе есть сколы или неровности самое время исправить их. Мы обработали края основы рашпилем и наждачкой и замазкой по дереву.
 
-## Directory structure
+![step-7-image-2](./img/step-7-image-2.jpg)
 
-The project is managed as a [Lerna](https://github.com/lerna/lerna) monorepo and split up in few directories:
+![step-7-image-3](./img/step-7-image-3.jpg)
 
-* `packages/` — most of source code is here; navigate to a particular package to see it’s own `README` and get an idea what it is for
-* `tools/` — utility scripts to assist build process and routine maintenance tasks
-* `workspace/` — XOD standard library, default projects, and end-to-end fixtures
+При желании наложите загрунтуйте основу перед покраской. С грунтовкой краска продержится дольше. Мы использовали обычный грунт по дереву.
 
-## Repository commands
+![step-7-image-4](./img/step-7-image-4.jpg)
 
-You can run several commands on source files. They are available as yarn subcommands:
+![step-7-image-5](./img/step-7-image-5.jpg)
 
-* `yarn build` — build, transpile, pack all
-* `yarn build:electron` — build desktop IDE only
-* `yarn build:cli` — build CLI tools only
-* `yarn dev:browser` — run dev-version of browser IDE on localhost
-* `yarn dist:electron` — build OS-specific distributive of desktop IDE
-* `yarn test` — run unit tests
-* `yarn test-cpp` — run C++ code tests
-* `yarn test-func` — run functional tests
-* `yarn tabtest` — run standard library tabular tests
-* `yarn lint` — run the linter to check code style
-* `yarn verify` — build, lint, test; run this prior to a pull request
-* `yarn start:electron` — starts desktop IDE
-* `yarn start:spectron-repl` — starts functional tests environment
-* `yarn storybook` — starts React components viewer for visual inspection
-* `yarn clean` — remove build artifacts and installed `node_modules`
+![step-7-image-6](./img/step-7-image-6.jpg)
 
-Note that dependencies between tasks are not resolved. `test` and `start:*` expect that the project is already built.
+![step-7-image-7](./img/step-7-image-7.jpg)
 
-### Scoping
+Покрасьте основу в любой нужный вам цвет. Мы решили сделать бекграунд вывески черным и задули основу черной акриловой краскной в баллончиках. 
 
-Many commands (notably `build`, `dev`, `test`) support package scoping to save development time. To rebuild only `xod-project`:
+![step-7-image-8](./img/step-7-image-8.jpg)
 
-```bash
-yarn build --scope xod-project
-```
+![step-7-image-9](./img/step-7-image-9.jpg)
 
-To rebuild `xod-project` and its dependencies:
+![step-7-image-10](./img/step-7-image-10.jpg)
 
-```bash
-yarn build --scope xod-project --include-filtered-dependencies
-```
+## Шаг 8. Припаяйте провода к неоновым отрезкам
 
-Those are standard [Lerna flags](https://github.com/lerna/lerna#flags).
+Пока краска на основе вывески сохнет можно заняться пайкой проводов. 
 
-### Debugging functional tests
+![step-8-image-1](./img/step-8-image-1.jpg)
 
-`yarn test-func` runs automated end-to-end functional tests.
+Провода нужно припаять к одному торцу каждого отрезка гибкого неона. Всего нужно два провода один на плюс другой на минус.
 
-You can set `XOD_DEBUG_TESTS` environment variable to keep IDE open on failure: `XOD_DEBUG_TESTS=1 yarn test-func`
+![step-8-image-2](./img/step-8-image-2.jpg)
 
-Use `yarn start:spectron-repl` to run an interactive session and control the IDE window programmatically.
+Провода можно использовать любые. Но лучше не выбирать слишком толстые и короткие провода.
 
-### Running C++ and tabular tests
+![step-8-image-3](./img/step-8-image-3.jpg)
 
-You need `gcc` and `avr-gcc` to be installed system-wide to run C++ code tests. They are available as OS packages for most platforms.
+После пайки. концы отрезков неоновых лент необходимо загерметизировать. Это строго необходимо если вы планируете установить вывеску на улице. Герметичные края защитят светодиодные ленты от дождя, пыли и грязи. Загерметизировать концы отрезков можно разными способами. 
 
-## License
+Можно использовать стандартные силиконовые колпачки-заглушки. Такие заглушки скорее всего можно найти там же где и катушки с гибким неоном.
 
-Copyright 2017-2019 XOD Inc.
+![step-8-image-4](./img/step-8-image-4.jpg)
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation.
+![step-8-image-5](./img/step-8-image-5.jpg)
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+Однако в нашем случае такие силиконовые колпачки оказались слишком толстыми. Края гибкого неона в колпачках тяжело зажимались между гвоздями. Поэтому мы решили загерметизировать края гибкого неона прозрачными жидкими гвоздями и клеевым пистолетом.
 
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+![step-8-image-6](./img/step-8-image-6.jpg)
 
-As a special exception, the copyright holders give permission to link the code of portions of this program with the OpenSSL library under certain conditions as described in each individual source file and distribute linked combinations including the program with the OpenSSL library. You must comply with the GNU Affero General Public License in all respects for all of the code used other than as permitted herein. If you modify file(s) with this exception, you may extend this exception to your version of the file(s), but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. If you delete this exception statement from all source files in the program, then also delete it in the license file.
-
-## Contributing
-
-Feel free to contribute to the project! See the general [Contibutor’s guide](https://xod.io/docs/contributing/) and [GitHub contribution guidelines](./CONTRIBUTING.md).
